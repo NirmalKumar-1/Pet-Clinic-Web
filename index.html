@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- style  -->
+     <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Bootstrap2</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" class="img-fluid" width="60px">
+            <div class="logoDiv">
+              <h5>10:36 AM</h5>
+              <p>pet care & clinic</p>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="searchForm">
+              <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="searchBox">
+              <button class="btn btn-outline-success" id="searchBtn" type="submit"><i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- container-fluid -->
+    <div class="container-fluid">
+
+      <!-- banner -->
+      <div class="row justify-content-center" id="banner">
+        <div class="col-md-6 col-11" id="bannerText">
+          <h1 class="bannerH1">First I wanted to be  <br>
+             a veterinarian</h1>   
+             
+          <p>At 10:36 AM Pet Care & Clinic, we understand that your pets are more than just animals—they’re family. Our clinic is dedicated to providing the best veterinary care, ensuring that your furry companions live healthy and happy lives. Let us be your partner in giving your pets the care they deserve.</p>
+
+          <button type="button" class="btn" id="bannerBtn1">Contact Us</button>
+          <button type="button" class="btn" id="bannerBtn2">Our Service</button>
+        </div>
+        <div class="col-md-4 d-none d-md-block ">
+          <img src="images/dog.png" alt="" class="img-fluid" id="bannerImg">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-11" id="service-text">
+          <h1 id="service-text-h1">As a veterinarian and <br>lover of animals.</h1>
+          <p>As a passionate veterinarian, I dedicate my work to improving the health and happiness of animals. From preventive care to advanced treatments, I strive to provide the best possible support for your beloved companions, ensuring they feel loved and cared for every step of the way.</p>
+          <button type="button" class="btn" id="service-btn">Our Service</button>
+        </div>
+        <div class="col-md-4 bannerImgDiv" id="service-img">
+            <div class="corner-border-wrapper">
+              <img src="images/Are you a new pet owner looking for essential tips….jpeg" alt="" class="img-fluid" id="service-main-img">
+            </div>
+        </div>
+      </div>
+
+      <!-- counter -->
+      <div class="row justify-content-center" id="counter-section">
+        <div class="col-md-3 text-center text-white mt-5 mb-3 counterDiv">
+          <i class="bi bi-heart-pulse-fill counter-icon"></i>
+          <h3>
+            +34793 <br>
+            Happy Clients
+          </h3>
+        </div>
+        <div class="col-md-3 text-center text-white mt-5 mb-3 counterDiv">
+          <i class="bi bi-buildings counter-icon"></i>
+          <h3>
+            +45382 <br>
+            Departament
+          </h3>
+        </div>
+        <div class="col-md-3 text-center text-white mt-5 mb-3 counterDiv">
+          <i class="bi bi-eyedropper counter-icon"></i>
+          <h3>+54762 <br>
+            Vaccinations</h3>
+        </div>
+      </div>
+
+
+      <!-- blog -->
+       <div class="row justify-content-center" id="blog">
+        <div class="col-12 text-center">
+          <h1 id="blog-title">Recent Posts</h1>
+          <p id="blog-p">Expert tips, inspiring stories, and essential advice<br>for every loving pet owner</p>
+        </div>
+
+        <div class="col-md-3 col-11 mt-4 blogInner">
+          <img src="images/dogClinic2.jpeg" class="img-fluid postImg" alt="" width="100%">
+          <div class="article-detail">
+            <h4 class="article-title">The Joy of Caring for Pets</h4>
+            <p class="article-date">AUGUST 07, 2024</p>
+            <p class="article-desc">Discover the rewarding journey of being a pet owner and how it transforms your life for the better.</p>
+            <p><a href=""  class="article-link">Read More+</a></p>
+          </div>
+        </div>
+        <div class="col-md-3 col-11 mt-4">
+          <img src="images/petImg.jpeg" class="img-fluid postImg" alt="" width="100%">
+          <div class="article-detail">
+            <h4 class="article-title">Building a Bond with Pet</h4>
+            <p class="article-date">FEBRUARY 23, 2025 </p>
+            <p class="article-desc">Strengthen the special connection with your beloved pets through fun and engaging activities.</p>
+            <p><a href=""  class="article-link">Read More+</a></p>
+          </div>
+        </div>
+        <div class="col-md-3 col-11 mt-4">
+          <img src="images/dogClinic3.jpeg" class="img-fluid postImg" alt="" width="100%">
+          <div class="article-detail">
+            <h4 class="article-title">Tips for a Healthy Pet</h4>
+            <p class="article-date">MARCH 16, 2025</p>
+            <p class="article-desc">Learn essential tips and practices to always ensure your furry friends stay healthy and happy.</p>
+            <p><a href=""  class="article-link">Read More+</a></p>
+          </div>
+        </div>
+       </div>
+
+      <!-- footer  -->
+      <div class="row justify-content-center text-white" id="footer">
+        <div class="col-md-3 col-11">
+          <h4>About</h4>
+          <a href="">History</a><br>
+          <a href="">Our Team</a><br>
+          <a href="">Brand Guidelines</a><br>
+          <a href="">Terms&Condition</a><br>
+          <a href="">Privacy Policy</a><br>
+        </div>
+        <div class="col-md-2 col-11">
+          <h4>Services</h4>
+          <a href="">How to Order</a><br>
+          <a href="">Our Product</a><br>
+          <a href="">Order Status</a><br>
+          <a href="">Promo</a><br>
+          <a href="">Payment Method</a><br>
+        </div>
+        <div class="col-md-4 text-end col-11">
+          <h4>Connect with Us</h4>
+          <p>Get updates for happy, healthy pets.</p>
+          <form action="" id="footer-form">
+            <input type="text" id="footer-search-box">
+            <button type="submit" id="footer-search-submit">
+              <i class="bi bi-cursor-fill"></i>
+            </button>
+          </form>
+          <i class="bi bi-instagram social-icon"></i>
+          <i class="bi bi-facebook social-icon"></i>
+          <i class="bi bi-twitter social-icon"></i>
+          <i class="bi bi-whatsapp social-icon"></i>
+
+        </div>
+      </div>
+
+    <!-- container fluid end  -->
+    </div>
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
